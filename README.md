@@ -1,4 +1,4 @@
-# Network-Troubleshooting
+# Network-Troubleshooting-Analysis
 
 ## Project Goal
 
