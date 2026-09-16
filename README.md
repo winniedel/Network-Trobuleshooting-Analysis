@@ -1,8 +1,8 @@
-# Wireshark-Network-Troubleshooting
+# Network-Troubleshooting-Analysis
 
 ## Project Goal
 
-The purpose of this project was to use Wireshark to analyze a successful and unsuccessful network connection, in a controlled environment using python. It focused on identifying the TCP three-way handshake, analyzing TCP flags and port numbers, observing HTTP application data, and using packet-level evidence to troubleshot why a connection failed.
+The purpose of this project was to use Wireshark to analyze a successful and unsuccessful network connection, in a controlled environment using python and Wireshark. It focused on identifying the TCP three-way handshake, analyzing TCP flags and port numbers, observing HTTP application data, and using packet-level evidence to troubleshot why a connection failed.
 
 ## Lab Environment
 
