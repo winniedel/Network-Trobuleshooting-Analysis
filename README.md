@@ -14,7 +14,7 @@ The tools used to complete this project included:
 - HTTP
 - Ubuntu virtual machine
 
-The python web server ran within the Ubuntu virtual machine and was set to listen to port 8080. Firefox was then used as the client to connect to the local server and through the loopback address 121.0.0.1. To access the server the url used was http://127.0.0.1:800
+The python web server ran within the Ubuntu virtual machine and was set to listen to port 8080. Firefox was then used as the client to connect to the local server and through the loopback address 121.0.0.1.
 
 ## Successful Connection
 
