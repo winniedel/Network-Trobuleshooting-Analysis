@@ -20,7 +20,11 @@ The python web server ran within the Ubuntu virtual machine and was set to liste
 
 Within the this connection, a TCP three-way handshake was successfully established before HTTP application-level communication began. In response, HTTP application data was exchanged from the server.
 
+### Figure 1: Successful TCP Handshake
+
 <img width="1433" height="90" alt="Successful TCP Handshake" src="https://github.com/user-attachments/assets/a5a5d550-e80e-4316-8716-7a5a50ce8729" />
+
+### Figure 2: HTTP Application Traffic
 
 <img width="1430" height="101" alt="HTTP Application Traffic" src="https://github.com/user-attachments/assets/3998a7e9-532b-445c-ac9b-2dc4d67a2fa8" />
 
@@ -30,9 +34,15 @@ Within the this connection, a TCP three-way handshake was successfully establish
 
 In this connection, the Python HTTP web server was stopped to see how it would affect the current connection. The client sent a SYN packet to 127.0.0.1 on port 8080 and received a TCP RST/ACK packet instead of SYN/ACK. As a result the TCP connection was not established. Within this connection, a TCP RST packet was also observed as a result of the Python server being stopped before the connection was attempted. Because of this, the connection could not be established.
 
+### Figure 3: Python Server
+
 <img width="576" height="203" alt="Python Server" src="https://github.com/user-attachments/assets/ca6ed891-5ce0-4968-af73-1a54576d1d40" />
 
+### Figure 4: Failed Connection; SYN —> RST/ACK
+
 <img width="1434" height="103" alt="Failed Connection: SYN —  RST:ACK" src="https://github.com/user-attachments/assets/82232024-bdd0-4177-aeb3-7e574dc222f0" />
+
+### Figure 5: RST Filter
 
 <img width="1435" height="429" alt="RST Filter" src="https://github.com/user-attachments/assets/75a59a6b-d942-40b5-9ca3-1331e1b8508d" />
 
